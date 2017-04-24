@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/placeholders.min.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/moment-with-locales.min.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/dr.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/dtime.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/js.cookie.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/order_me.js"></script>
+  <script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/sender.js"></script>
+  <script src="http://ctr-localhost.ru/vlad/jq.js"></script>
+  <script type="text/javascript" src="http://ctr-localhost.ru/yuriy1/price.js"></script>
+  <title>Chocolate Slim - люби себя</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant:700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,900|Roboto+Condensed|Roboto:400,900&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/flipclock.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="body-wrapper">
+  <!--BEGIN HEADER-->
+  <header>
+    <div class="wrapper">
+      <h1 data-xd="1">
+        <i>стройность</i>
+        <span>красота</span>
+        <div class="logo__text" data-xd="4">
+          <span>скидка</span>
+          <span>-50%</span>
+        </div>
+      </h1>
+      <div class="header__img">
+        <img src="img/girl.png" alt="стройность, красота">
+        <img src="img/product.png" alt="">
+      </div>
+    </div>
+    <div class="header__price">
+      <div class="wrapper">
+        <div class="header__price--old">
+          <span>{{ old_price }}</span>
+          <span>{{ currency }}</span>
+        </div>
+        <div class="header__price--new">
+          <span>{{ price }}</span>
+          <span>{{ currency }}</span>
+        </div>
+      </div>
+      <button class="toform button" data-xd="7">заказать&nbsp;сейчас</button>
+    </div>
+  </header>
+  <!--END HEADER-->
+  <!--BEGIN ADVANTAGE-->
+  <section class="advantage">
+    <div class="wrapper">
+      <h2 data-xd="5"><span>инновационное средство</span><span>для заботы о фигуре</span></h2>
+      <ul class="advantage__list" data-xd="6">
+        <li class="advantage__item">
+          <span>Сжигание калорий</span>
+        </li>
+        <li class="advantage__item">
+          <span>Снижение аппетита</span>
+        </li>
+        <li class="advantage__item">
+          <span>Результат в первые дни</span>
+        </li>
+        <li class="advantage__item">
+          <span>Энергия и бодрость</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--END ADVANTAGE-->
+  <!--BEGIN ABOUT-->
+  <section class="about">
+    <div class="wrapper">
+      <h2 data-xd="9">Chocolate Slim</h2>
+      <p>создан для потери лишнего веса без стресса и изматывающего голодания</p>
+      <ul class="about__list" data-xd="10">
+        <li class="about__item">
+          <div class="about__item-img">
+          </div>
+          <span class="about__item-caption">Красивая фигура</span>
+        </li><!--
+     --><li class="about__item">
+          <div class="about__item-img">
+          </div>
+          <span class="about__item-caption">Отсутствие дискомфорта</span>
+        </li><!--
+     --><li class="about__item">
+          <div class="about__item-img">
+          </div>
+          <span class="about__item-caption">Энергия и бодрость</span>
+        </li><!--
+     --><li class="about__item">
+          <div class="about__item-img">
+          </div>
+          <span class="about__item-caption">Легкость</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--END ABOUT-->
+  <!--BEGIN COMPONENTS-->
+  <section class="components">
+    <div class="wrapper">
+      <h2 data-xd="13">только натуральные компоненты</h2>
+      <ul class="components__list">
+        <li class="components__item">
+          <div class="components__item-img"></div><!--
+       --><div class="components__item-caption">
+            <span data-xd="14">01</span>
+            <p data-xd="15">Глюкоманнан</p>
+          </div>
+        </li>
+        <li class="components__item">
+          <div class="components__item-caption">
+            <span data-xd="19">02</span>
+            <p data-xd-"20">какао-бобы</p>
+          </div><!--
+       --><div class="components__item-img"></div>
+        </li>
+        <li class="components__item">
+          <div class="components__item-img"></div><!--
+       --><div class="components__item-caption">
+            <span data-xd="17">03</span>
+            <p data-xd="18">Овсяное толокно</p>
+          </div>
+        </li>
+        <li class="components__item">
+          <div class="components__item-caption">
+            <span data-xd="22">04</span>
+            <p data-xd="23">L-карнитин</p>
+          </div><!--
+       --><div class="components__item-img"></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--END COMPONENTS-->
+  <!--BEGIN EFFECT-->
+  <section class="effect">
+    <div class="wrapper">
+      <h2 data-xd="26">Эффективность</h2>
+      <span data-xd="27">доказана клиническими испытаниями</span>
+    </div>
+    <ul class="effect__list">
+      <li class="effect__item">
+        <div class="wrapper">
+          <h3 data-xd="28">Без изменения рациона питания</h3>
+          <div class="effect__item-img"></div>
+          <p data-xd="30">до<span>-8 кг.</span>за 28 дней</p>
+        </div>
+      </li>
+      <li class="effect__item">
+        <div class="wrapper">
+          <h3 data-xd="29">Правильное питание и спорт</h3>
+          <div class="effect__item-img"></div>
+          <p data-xd="31">до<span>-12 кг.</span>за 28 дней</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!--END EFFECT-->
+  <!--BEGIN HOW-->
+  <section class="how">
+    <div class="wrapper">
+      <h2 data-xd="33">как&nbsp;работает Chocolate&nbsp;Slim</h2>
+      <ul class="how__list">
+        <li class="how__item">
+          <div class="how__item-img">
+            <div class="how__item-img-pic">
+              <div class="how__item-count" data-xd="34">Этап<br><span>01</span></div>
+            </div>
+          </div><!--
+       --><p data-xd="35">Разрушение жировой ткани</p>
+        </li>
+        <li class="how__item">
+          <p data-xd="38">Восполне&shy;ние <span class="#">водно-солевого</span> баланса</p><!--
+       --><div class="how__item-img">
+            <div class="how__item-img-pic">
+              <div class="how__item-count" data-xd="37">Этап<br><span>02</span></div>
+            </div>
+          </div>
+        </li>
+        <li class="how__item">
+          <div class="how__item-img">
+            <div class="how__item-img-pic">
+              <div class="how__item-count" data-xd="40">Этап<br><span>03</span></div>
+            </div>
+          </div><!--
+       --><p data-xd="41">Детокс всех систем организма</p>
+        </li>
+        <li class="how__item">
+          <p data-xd="44">Незамени&shy;мые витамины</p><!--
+       --><div class="how__item-img">
+            <div class="how__item-img-pic">
+              <div class="how__item-count" data-xd="43">Этап<br><span>04</span></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--END HOW-->
+  <!--BEGIN PRODUCT-->
+  <section class="product">
+    <div class="wrapper">
+      <h2>
+        <span data-xd="72">9 из 10 ведущих диетологов</span>
+        <span><span data-xd="73">рекомендуют</span> <span data-xd="75"><br>Chocolate<br>Slim</span></span>
+      </h2>
+      <div class="product__img">
+        <img src="img/product.png" alt="">
+      </div>
+    </div>
+    <button class="toform button" data-xd="76">ЗАКАЗАТЬ&nbsp;СЕЙЧАС</button>
+  </section>
+  <!--END PRODUCT-->
+  <!--BEGIN RESULT-->
+  <section class="result">
+    <div class="wrapper">
+      <h2 data-xd="47">отзывы</h2>
+      <div class="result__list">
+        <div class="result__item">
+          <div class="result__item-img-container">
+            <div class="result__item-imgs">
+              <div class="result__item-img">
+                <div class="result__item-caption-before" data-xd="48">до</div>
+                <img src="img/result1.jpg" alt="">
+              </div><!--
+           --><div class="result__item-img">
+                <div class="result__item-caption-after" data-xd="49">после</div>
+                <img src="img/result11.jpg" alt="">
+              </div>
+              <span data-xd="50">Сюзанна, 25 лет</span>
+            </div>
+          </div>
+          <div class="result__text" data-xd="51">
+            Это что-то невероятное! Я скинула почти <span class="mark">10 кг за первые 3 недели!</span> Главное следовать инструкциям на упаковке. <span class="mark">Choсolate Slim реально помогает.</span>
+          </div>
+        </div>
+        <div class="result__item">
+          <div class="result__item-img-container">
+            <div class="result__item-imgs">
+              <div class="result__item-img">
+                <div class="result__item-caption-before" data-xd="52">до</div>
+                <img src="img/result2.jpg" alt="">
+              </div><!--
+           --><div class="result__item-img">
+                <div class="result__item-caption-after" data-xd="53">после</div>
+                <img src="img/result22.jpg" alt="">
+              </div>
+              <span data-xd="54">Владимир, 32 года</span>
+            </div>
+          </div>
+          <div class="result__text" data-xd="55">
+            Записался в тренажерный зал. Результат оставлял желать лучшего. "Пивной живот" абсолютно не желал уходить. Знакомый тренер посоветовала
+            <span class="mark">Choсolate Slim. Результат</span> – лишний вес наконец-то уходит!
+            <span class="mark">За 4 недели скинул - 8 кг!</span>
+          </div>
+        </div>
+        <div class="result__item">
+          <div class="result__item-img-container">
+            <div class="result__item-imgs">
+              <div class="result__item-img">
+                <div class="result__item-caption-before" data-xd="56">до</div>
+                <img src="img/result3.jpg" alt="">
+              </div><!--
+           --><div class="result__item-img">
+                <div class="result__item-caption-after" data-xd="57">после</div>
+                <img src="img/result33.jpg" alt="">
+              </div>
+              <span data-xd="58">Оксана, 44 года</span>
+            </div>
+          </div>
+          <div class="result__text" data-xd="59">
+            <span class="mark">Choсolate Slim</span> мне порекомендовала мой косметолог. Эффект просто потрясающий. Я даже подумать не могла, что можно достичь такого хорошого результата за столь короткий срок. Буду пользоваться и дальше.
+            <span class="mark">Всем рекомендую!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END RESULT-->
+  <!--BEGIN FOOTER-->
+  <footer>
+    <div class="wrapper">
+      <h2><span data-xd="61">Chocolate</span> <span data-xd="62">Slim</span>
+        <div class="logo__text">
+          <span>скидка</span>
+          <span>-50%</span>
+        </div>
+      </h2>
+      <div class="footer__img">
+        <img src="img/girl2.png" alt="">
+      </div>
+
+    </div>
+  </footer>
+  <!--END FOOTER-->
+  <!--BEGIN FORM-->
+  <section class="form">
+    <div class="wrapper">
+      <div class="form__header">
+        <div class="form__product">
+          <img src="img/product.png" alt="">
+        </div>
+        <div class="form__counter-container">
+          <div class="form__counter-container-inner">
+            <p data-xd="65">Заказано за последний час</p>
+            <div class="form__counter">
+              <div class="counter-clock"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="prices">
+        <div class="prices__container">
+          <div class="prices--old">
+            <span>{{ old_price }}</span>
+            <span> {{ currency }}</span>
+          </div><br>
+          <div class="prices--new">
+            <span>{{ price }}</span>
+            <span>{{ currency }}</span>
+          </div>
+        </div>
+      </div>
+      <form action="" method="post">
+        <h2 data-xd="66">оформление заказа</h2>
+        <div class="form__select">
+          <select id="country_code_selector">
+            <option value="RU" data-xd="67">Россия</option>
+          </select>
+        </div>
+        <input type="text" name="name" placeholder="Ваше имя" data-count-length="2+">
+        <input type="text" class="only_number" placeholder="Номер телефона" name="phone">
+        <button class="js_submit button" data-xd="68">заказать сейчас</button>
+      </form>
+    </div>
+  </section>
+  <!--END FORM-->
+  <script src="js/flipclock.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  </div>
+</body>
+</html>
